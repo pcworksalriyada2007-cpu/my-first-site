@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name" required>
+        <button type="submit">Login</button>
+    </form>
+    <br>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="password" required>
+        <br>
+        <label for="birth">Birth date:</label>
+        <input type="date" id="birth" name="birth">
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    <br>
+    <form>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="OM">Oman</option>
+            <option value="SA">Saudi Arabia</option>
+            <option value="AE">United Arab Emirates</option>
+        </select>
+        <button type="submit">Send</button>
+    </form>
+    <br>
+    <form>
+        <label for="msg">Message:</label>
+        <br>
+        <textarea id="msg" name="message" rows="5" cols="30" placeholder="Write here" required></textarea>
+        <br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+
+</html>
