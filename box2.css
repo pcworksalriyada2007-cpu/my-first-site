@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+
+    padding: 10px;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+    transition: background-color 0.4s, transform 0.4s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 12);
+    border-radius: 12px;
+}
+
+.html {
+    background-color: lightblue;
+}
+
+.css {
+    background-color: lightcoral;
+}
+
+.js {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: url("images/lion.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.card h2 {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+
+.card p {
+    line-height: 1.6;
+}
+
+
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, #acb6e5, #86fde8);
+}
+
+.card:hover {
+    background-color: lightgray;
+    transform: translateY(-8px);
+}
+
+.field {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+.field:focus {
+    border-color: royalblue;
+}
+
+.subscribe {
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe input[type="email"] {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    width: 250px;
+    margin-right: 10px;
+}
