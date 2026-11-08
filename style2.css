@@ -1,0 +1,23 @@
+body {
+    background-color: lightyellow;
+}
+
+#page-title {
+    color: #1e3a8a;
+    font-size: 2.5rem;
+}
+
+.note {
+    color: rgb(200, 0, 0);
+    font-size: 1.1rem;
+}
+
+table {
+    width: 50%;
+
+}
+
+th {
+    background-color: lightblue;
+
+}

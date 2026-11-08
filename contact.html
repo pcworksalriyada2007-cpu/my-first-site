@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="reason">Reason:</label>
+
+        <br>
+
+        <select id="reason" name="reason">
+            <option value="question">Question</option>
+            <option value="support">Support</option>
+        </select>
+
+        <br>
+
+        <label for="message">Message:</label>
+
+        <br>
+
+        <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here"
+            required></textarea>
+
+        <br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+
+</html>
