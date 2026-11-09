@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="cv.css">
+    <link href="https://fonts.googleapis.com/css2?family=poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,15 +26,18 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <img src="images/me.jpg" alt="my photo" width="200">
-            <p>I am a dedicated worker with experience in various fields, always striving to improve and deliver quality
-                results, and I am committed to excellence in everything I do.</p>
+            <div class="about-content">
+                <img src="images/me.jpg" alt="my photo">
+                <p>I am a dedicated worker with experience in various fields, always striving to improve and deliver
+                    quality
+                    results, and I am committed to excellence in everything I do.</p>
+            </div>
         </section>
 
 
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
+            <ul class="skills-list">
                 <li>JavaScript</li>
                 <li>HTML/CSS</li>
                 <li>Python</li>
@@ -38,7 +45,7 @@
         </section>
         <section id="experience">
             <h2>Experience</h2>
-            <table border="1">
+            <table>
                 <thead>
                     <tr>
                         <th>Title</th>
@@ -60,17 +67,17 @@
             <h2>Contact</h2>
             <form>
                 <label for="name">Name:</label>
-                <br>
+
                 <input type="text" id="name" name="name" placeholder="Your name" required>
-                <br>
+
                 <label for="email">Email:</label>
-                <br>
+
                 <input type="email" id="email" name="email" placeholder="Your email" required>
-                <br>
+
                 <label for="message">Message:</label>
-                <br>
+
                 <textarea id="message" name="message" placeholder="Your message" required></textarea>
-                <br>
+
                 <button type="submit">Send</button>
             </form>
         </section>
