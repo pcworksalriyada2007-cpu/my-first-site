@@ -199,6 +199,20 @@ html {
     scroll-behavior: smooth;
 }
 
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+body.dark header,
+body.dark section {
+    background-color: dimgray;
+}
+
+.hidden {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .about-content {
         flex-direction: column;

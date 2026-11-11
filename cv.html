@@ -15,6 +15,7 @@
 <body>
     <header>
         <h1>Worker</h1>
+        <button id="darkBtn">Dark Mode</button>
     </header>
 
     <nav>
@@ -38,12 +39,16 @@
 
         <section id="skills">
             <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>JavaScript</li>
-                <li>HTML/CSS</li>
-                <li>Python</li>
-            </ul>
+            <button id="toggleSkills">Hide Skills</button>
+            <div id="skillslist">
+                <ul class="skills-list">
+                    <li>JavaScript</li>
+                    <li>HTML/CSS</li>
+                    <li>Python</li>
+                </ul>
+            </div>
         </section>
+
         <section id="experience">
             <h2>Experience</h2>
             <table>
@@ -65,8 +70,12 @@
         </section>
 
         <section id="contact">
+
             <h2>Contact</h2>
-            <form>
+
+            <form id="contactForm" novalidate>
+
+
                 <label for="name">Name:</label>
 
                 <input type="text" id="name" name="name" placeholder="Your name" required>
@@ -81,7 +90,11 @@
 
                 <button type="submit">Send</button>
             </form>
+
+            <p id="formMessage"></p>
+
         </section>
+
     </main>
 
     <footer>
