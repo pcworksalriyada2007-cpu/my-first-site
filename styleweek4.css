@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.app {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px lightblue;
+}
+
+h1 {
+    text-align: center;
+    color: royalblue;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+#addButton {
+    background-color: royalblue;
+}
+
+#list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#list li {
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.deleteButton {
+    background-color: crimson;
+    margin-left: auto;
+}
+
+.toggle-button {
+    background-color: seagreen;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#counter {
+    text-align: center;
+    color: dimgray;
+}
